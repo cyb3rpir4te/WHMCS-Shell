@@ -4,9 +4,10 @@ Shell to Access WHMCS Functions Using Console L0g
 ##### Press F12 or Ctrl + SHIFT + I to Open Developer Tools
 
 #### Basic Funtions:
+-Shows Database Credentials in C0nsole.Table
 1. Create Administrator User in WHMCS
-Username: admin2
-Password: admin123@
+> Username: admin2
+>Password: admin123@
 2. Remove Account (admin2) in WHMCS
 3. Remove L0g of admin2 in WHMCS
 4. Remove Account (admin2) & L0g in WHMCS
