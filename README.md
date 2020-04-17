@@ -1,6 +1,7 @@
 # WHMCS-Shell
 Shell to Access WHMCS Functions Using Console L0g
-##### Upload whmcsfunctions.php & Update WHMCS Configuration URL
+##### Upload whmcsfunctions.php
+#####  |-Update WHMCS Configuration URL inside whmcsfunctions.php
 ##### Press F12 or Ctrl + SHIFT + I to Open Developer Tools
 
 #### Basic Funtions:
